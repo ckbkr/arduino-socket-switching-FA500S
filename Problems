@@ -1,0 +1,20 @@
+An A configured switch will react to the B signal for turning on
+
+Configuration:
+
+Socket 1: B
+Socket 2: C
+
+With A ON: Both turn on
+With A OFF: Both turn off
+
+With B ON: Socket 1 turns on
+With B OFF: Socket 1 turns off
+
+With C ON: Socket 2 turns on
+With C OFF: Socket 2 turns off
+
+With D ON: Both turn on
+With D OFF: Both turn off
+
+Arduino should have a cap on the reset to filter out software resets from the serial port, otherwise it will reboot everytime a serial console is opened
